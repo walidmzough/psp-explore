@@ -1,0 +1,55 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family:segoe ui;
+}
+
+body {
+  overflow: hidden;
+}
+
+.controlPanel {
+  position: fixed;
+  bottom: 80px;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.controlPanel .logo{
+  border-radius: 20px;
+    background: #fff;
+    width: 200px;
+
+}
+.controlPanel .sound {
+  border-radius: 20px;
+  width: 60px;
+  margin: 30px 0;
+}
+.controlPanel button {
+
+padding:10px 5px;
+color:#fff;
+background-color: #333;
+margin:0 5px;
+border:0;
+}
+.dataDisplay table{
+  color:#fff;
+  width:100%;
+  padding:10px 5px;
+}
+.dataDisplay{
+  border-radius:10px;
+  border:1px solid #fff;
+  margin: 10px 0;
+}
+.dataDisplay table tr{
+border-bottom:1px solid #eee;
+padding:3px;
+}
+.dataDisplay table tr:last-child{
+  border-bottom:none;
+  }

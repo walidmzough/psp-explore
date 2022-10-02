@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowing Sun</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+
+<body>
+    <div>
+        <canvas class="webgl"></canvas>
+        <div class="controlPanel">
+            <div><img class='sound' src='/assets/sound-logo.png'/></div>
+            <img class='logo' src="/assets/logo.png"/>
+            <div class="dataDisplay">
+                <table>
+                    <tr><td>Distance</td><td>22.52 Rs</td></tr>
+                    <tr></tr>
+                    <tr><td>Speed</td><td>121.96 km/h</td></tr><tr></tr>
+                    <tr><td>Heat Shield <br>Temperature</td><td>58.8°C</td></tr><tr></tr>
+                    <tr><td>Date & Time</td><td>2021-04-28 00:27UT</td></tr><tr></tr>
+                    <tr><td>HAE-LN</td><td>73.70°</td></tr><tr></tr>
+                    <tr><td>HAE-LN</td><td>-0.18°</td></tr><tr></tr>
+                </table>
+            </div>
+            <div>            <button id="zin">Zoom In +</button>
+                <button id="zout">Zoom Out -</button> </div>
+                
+        </div>
+        
+    </div>
+    <span style="position: fixed;top: 10px;left: 10px;color: #fff;font-size: 18px;padding: 10px;border-radius: 5px;border: 1px solid #fff;">Back to home</span>
+    <script type = "module" src="./index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+</body>
+
+</html>
